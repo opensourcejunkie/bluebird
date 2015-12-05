@@ -84,7 +84,7 @@ using(readFile("1.txt"), readFile("2.txt"), getConnection(), function(txt1, txt2
 
 <hr>
 
-+You can also pass the resources in an array in the first argument. In this case the handler function will only be called with one rgument that is the array containing the resolved resources in respective positions in the array. Example:
+You can also pass the resources in an array in the first argument. In this case the handler function will only be called with one argument that is the array containing the resolved resources in respective positions in the array. Example:
 
 ```js
 var connectionPromises = [getConnection(), getConnection()];
